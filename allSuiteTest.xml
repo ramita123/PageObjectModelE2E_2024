@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross browser Suite" parallel="tests" thread-count="2">
+	
+	<listeners>
+	<listener class-name="Utils.ListnerHelper"/>
+	</listeners>
+
+  <test thread-count="5" name="ChromeTest">
+	<parameter name="browserName" value="chrome"></parameter>
+    <classes>
+		<class name="PageTests.RegisterPageTests"/>
+      <class name="PageTests.LoginPageTests"/>
+      <class name="PageTests.LogoutUserTests"/>
+		<class name="PageTests.ContactUsFormTests"/>
+		<class name="PageTests.TestCasesPageTests"></class>
+		<class name="PageTests.AllProductAndDetailsTests"/>
+		<class name="PageTests.SearchProductTest"/>
+		<class name="PageTests.HomePageTest"/>
+		<class name="PageTests.CartPageTest"/>
+		<class name="PageTests.ProductQuantityInCartTest"/>
+		<class name="PageTests.PlaceOrderTest"/>
+		<class name="PageTests.ViewCategoryProductsTest"/>
+		<class name="PageTests.ViewAndCartBrandProductsTest"/>
+		
+		<class name="PageTests.AddReviewTest"/>
+		<class name="PageTests.AddToCartFromRecommended"/>
+		<class name="PageTests.DownloadInvoiceAfterCheckout"/>
+		<class name="PageTests.ScrollUpAndScrollDownFunctioanlityTest"/>
+		
+		
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test thread-count="5" name="FirefoxTest">
+	<parameter name="browserName" value="firefox"></parameter>
+     <classes>
+		<class name="PageTests.RegisterPageTests"/>
+      <class name="PageTests.LoginPageTests"/>
+      <class name="PageTests.LogoutUserTests"></class>
+		<class name="PageTests.ContactUsFormTests"/>
+		<class name="PageTests.TestCasesPageTests"></class>	
+		<class name="PageTests.AllProductAndDetailsTests"/>
+		<class name="PageTests.SearchProductTest"/>
+		<class name="PageTests.HomePageTest"/>
+		<class name="PageTests.CartPageTest"/>
+		<class name="PageTests.ProductQuantityInCartTest"/>
+		<class name="PageTests.PlaceOrderTest"/>
+		<class name="PageTests.ViewCategoryProductsTest"/>
+		<class name="PageTests.AddReviewTest"/>
+		<class name="PageTests.AddToCartFromRecommended"/>
+		<class name="PageTests.DownloadInvoiceAfterCheckout"/>
+		<class name="PageTests.ScrollUpAndScrollDownFunctioanlityTest"/>
+		
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

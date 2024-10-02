@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Cross browser Suite</th></tr>
+<tr><td><a href="#t0">FirefoxTest</a></td><td class="num">20</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">660,174</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ChromeTest</a></td><td class="num">22</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">675,100</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">42</th><th class="num attn">1</th><th class="num attn">1</th><th class="num attn">4</th><th class="num">1,335,274</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross browser Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">PageTests.AddToCartFromRecommended</td><td><a href="#m0">setUp</a></td><td rowspan="1">1727861871312</td><td rowspan="1">1326</td></tr><tr><th colspan="4">FirefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">PageTests.LoginPageTests</td><td><a href="#m1">testLoginWithInvalidCredentials</a></td><td rowspan="1">1727862340846</td><td rowspan="1">10585</td></tr><tr class="failedodd"><td rowspan="1">PageTests.SearchProductTest</td><td><a href="#m2">testSearchProduct</a></td><td rowspan="1">1727862221726</td><td rowspan="1">12651</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">PageTests.AddToCartFromRecommended</td><td><a href="#m3">driverQuit</a></td><td rowspan="1">1727861872649</td><td rowspan="1">-1727861872649</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">PageTests.AddToCartFromRecommended</td><td><a href="#m4">testAddToCartFromRecommendedCarousel</a></td><td rowspan="1">1727861872644</td><td rowspan="1">0</td></tr><tr><th colspan="4">FirefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">PageTests.AddReviewTest</td><td><a href="#m5">testSubmitReviewForm</a></td><td rowspan="1">1727861902738</td><td rowspan="1">17729</td></tr><tr class="passedodd"><td rowspan="1">PageTests.AllProductAndDetailsTests</td><td><a href="#m6">testGetAllProductAndDetails</a></td><td rowspan="1">1727861880309</td><td rowspan="1">14311</td></tr><tr class="passedeven"><td rowspan="1">PageTests.CartPageTest</td><td><a href="#m7">testRemoveProductFromCart</a></td><td rowspan="1">1727862471910</td><td rowspan="1">28008</td></tr><tr class="passedodd"><td rowspan="1">PageTests.ContactUsFormTests</td><td><a href="#m8">testContactUsForm</a></td><td rowspan="1">1727862035608</td><td rowspan="1">12699</td></tr><tr class="passedeven"><td rowspan="1">PageTests.DownloadInvoiceAfterCheckout</td><td><a href="#m9">testDownloadInvoiceAfterCheckout</a></td><td rowspan="1">1727862056480</td><td rowspan="1">57182</td></tr><tr class="passedodd"><td rowspan="2">PageTests.HomePageTest</td><td><a href="#m10">testNewsLetter</a></td><td rowspan="1">1727862144801</td><td rowspan="1">7409</td></tr><tr class="passedodd"><td><a href="#m11">testWithInvalidEmailValidations</a></td><td rowspan="1">1727862408063</td><td rowspan="1">9229</td></tr><tr class="passedeven"><td rowspan="1">PageTests.LoginPageTests</td><td><a href="#m12">testLoginWithValidCredentials</a></td><td rowspan="1">1727862122533</td><td rowspan="1">14081</td></tr><tr class="passedodd"><td rowspan="1">PageTests.LogoutUserTests</td><td><a href="#m13">logoutUserTest</a></td><td rowspan="1">1727861850600</td><td rowspan="1">17840</td></tr><tr class="passedeven"><td rowspan="3">PageTests.PlaceOrderTest</td><td><a href="#m14">placeOrderLoginBeforeCheckout</a></td><td rowspan="1">1727862425048</td><td rowspan="1">38732</td></tr><tr class="passedeven"><td><a href="#m15">placeOrderRegisterBeforeCheckout</a></td><td rowspan="1">1727862264846</td><td rowspan="1">47788</td></tr><tr class="passedeven"><td><a href="#m16">placeOrderRegisterWhileCheckout</a></td><td rowspan="1">1727861970803</td><td rowspan="1">55460</td></tr><tr class="passedodd"><td rowspan="1">PageTests.ProductQuantityInCartTest</td><td><a href="#m17">verifyProductQuantityTest</a></td><td rowspan="1">1727861944767</td><td rowspan="1">17138</td></tr><tr class="passedeven"><td rowspan="2">PageTests.RegisterPageTests</td><td><a href="#m18">testAlreadyRegisterUser</a></td><td rowspan="1">1727862320470</td><td rowspan="1">12649</td></tr><tr class="passedeven"><td><a href="#m19">testRegisterUser</a></td><td rowspan="1">1727862161179</td><td rowspan="1">36555</td></tr><tr class="passedodd"><td rowspan="2">PageTests.ScrollUpAndScrollDownFunctioanlityTest</td><td><a href="#m20">testScrollUpAndDown</a></td><td rowspan="1">1727862206268</td><td rowspan="1">7866</td></tr><tr class="passedodd"><td><a href="#m21">testScrollUpWithoutArrowBtnAndScrollDown</a></td><td rowspan="1">1727862359014</td><td rowspan="1">5950</td></tr><tr class="passedeven"><td rowspan="1">PageTests.SearchProductTest</td><td><a href="#m22">testSearchProductAndVerifyCartAfterLogin</a></td><td rowspan="1">1727862373346</td><td rowspan="1">26588</td></tr><tr class="passedodd"><td rowspan="1">PageTests.TestCasesPageTests</td><td><a href="#m23">testTestCasesPage</a></td><td rowspan="1">1727861928380</td><td rowspan="1">8336</td></tr><tr class="passedeven"><td rowspan="1">PageTests.ViewCategoryProductsTest</td><td><a href="#m24">testViewCategoryProducts</a></td><td rowspan="1">1727862242014</td><td rowspan="1">14843</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">PageTests.LoginPageTests</td><td><a href="#m25">testLoginWithInvalidCredentials</a></td><td rowspan="1">1727862347328</td><td rowspan="1">15418</td></tr><tr class="failedodd"><td rowspan="1">PageTests.SearchProductTest</td><td><a href="#m26">testSearchProduct</a></td><td rowspan="1">1727862199381</td><td rowspan="1">10932</td></tr><tr><th colspan="4">ChromeTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">PageTests.SearchProductTest</td><td><a href="#m27">testSearchProductAndVerifyCartAfterLogin</a></td><td rowspan="1">1727862375573</td><td rowspan="1">11815</td></tr><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">PageTests.AddReviewTest</td><td><a href="#m28">testSubmitReviewForm</a></td><td rowspan="1">1727861920573</td><td rowspan="1">12850</td></tr><tr class="passedodd"><td rowspan="1">PageTests.AddToCartFromRecommended</td><td><a href="#m29">testAddToCartFromRecommendedCarousel</a></td><td rowspan="1">1727861881051</td><td rowspan="1">20362</td></tr><tr class="passedeven"><td rowspan="1">PageTests.AllProductAndDetailsTests</td><td><a href="#m30">testGetAllProductAndDetails</a></td><td rowspan="1">1727861905851</td><td rowspan="1">10674</td></tr><tr class="passedodd"><td rowspan="1">PageTests.CartPageTest</td><td><a href="#m31">testRemoveProductFromCart</a></td><td rowspan="1">1727862486760</td><td rowspan="1">29103</td></tr><tr class="passedeven"><td rowspan="1">PageTests.ContactUsFormTests</td><td><a href="#m32">testContactUsForm</a></td><td rowspan="1">1727862034352</td><td rowspan="1">15299</td></tr><tr class="passedodd"><td rowspan="1">PageTests.DownloadInvoiceAfterCheckout</td><td><a href="#m33">testDownloadInvoiceAfterCheckout</a></td><td rowspan="1">1727862053324</td><td rowspan="1">57369</td></tr><tr class="passedeven"><td rowspan="2">PageTests.HomePageTest</td><td><a href="#m34">testNewsLetter</a></td><td rowspan="1">1727862131494</td><td rowspan="1">5906</td></tr><tr class="passedeven"><td><a href="#m35">testWithInvalidEmailValidations</a></td><td rowspan="1">1727862430449</td><td rowspan="1">6917</td></tr><tr class="passedodd"><td rowspan="1">PageTests.LoginPageTests</td><td><a href="#m36">testLoginWithValidCredentials</a></td><td rowspan="1">1727862115306</td><td rowspan="1">12335</td></tr><tr class="passedeven"><td rowspan="1">PageTests.LogoutUserTests</td><td><a href="#m37">logoutUserTest</a></td><td rowspan="1">1727861847912</td><td rowspan="1">28393</td></tr><tr class="passedodd"><td rowspan="3">PageTests.PlaceOrderTest</td><td><a href="#m38">placeOrderLoginBeforeCheckout</a></td><td rowspan="1">1727862440934</td><td rowspan="1">41595</td></tr><tr class="passedodd"><td><a href="#m39">placeOrderRegisterBeforeCheckout</a></td><td rowspan="1">1727862271358</td><td rowspan="1">49403</td></tr><tr class="passedodd"><td><a href="#m40">placeOrderRegisterWhileCheckout</a></td><td rowspan="1">1727861967968</td><td rowspan="1">61663</td></tr><tr class="passedeven"><td rowspan="1">PageTests.ProductQuantityInCartTest</td><td><a href="#m41">verifyProductQuantityTest</a></td><td rowspan="1">1727861950178</td><td rowspan="1">14081</td></tr><tr class="passedodd"><td rowspan="2">PageTests.RegisterPageTests</td><td><a href="#m42">testAlreadyRegisterUser</a></td><td rowspan="1">1727862325289</td><td rowspan="1">16416</td></tr><tr class="passedodd"><td><a href="#m43">testRegisterUser</a></td><td rowspan="1">1727862140880</td><td rowspan="1">36061</td></tr><tr class="passedeven"><td rowspan="2">PageTests.ScrollUpAndScrollDownFunctioanlityTest</td><td><a href="#m44">testScrollUpAndDown</a></td><td rowspan="1">1727862181028</td><td rowspan="1">14642</td></tr><tr class="passedeven"><td><a href="#m45">testScrollUpWithoutArrowBtnAndScrollDown</a></td><td rowspan="1">1727862366887</td><td rowspan="1">4960</td></tr><tr class="passedodd"><td rowspan="1">PageTests.SearchProductTest</td><td><a href="#m46">testSearchProductAndVerifyCartAfterLogin</a></td><td rowspan="1">1727862391381</td><td rowspan="1">34921</td></tr><tr class="passedeven"><td rowspan="1">PageTests.TestCasesPageTests</td><td><a href="#m47">testTestCasesPage</a></td><td rowspan="1">1727861937029</td><td rowspan="1">8523</td></tr><tr class="passedodd"><td rowspan="1">PageTests.ViewAndCartBrandProductsTest</td><td><a href="#m48">testViewAndCartBrandProducts</a></td><td rowspan="1">1727862214132</td><td rowspan="1">27928</td></tr><tr class="passedeven"><td rowspan="1">PageTests.ViewCategoryProductsTest</td><td><a href="#m49">testViewCategoryProducts</a></td><td rowspan="1">1727862246491</td><td rowspan="1">20667</td></tr></tbody>
+</table>
+<h2>FirefoxTest</h2><h3 id="m0">PageTests.AddToCartFromRecommended#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: &apos;TXCHD-LAP-165&apos;, ip: &apos;192.168.1.101&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at Base.SetupDriver.intializeBrowser(SetupDriver.java:62)
+	at testConfig.BaseTest.setUp(BaseTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">PageTests.LoginPageTests#testLoginWithInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">PageTests.SearchProductTest#testSearchProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">PageTests.AddToCartFromRecommended#driverQuit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">PageTests.AddToCartFromRecommended#testAddToCartFromRecommendedCarousel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: &apos;TXCHD-LAP-165&apos;, ip: &apos;192.168.1.101&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at Base.SetupDriver.intializeBrowser(SetupDriver.java:62)
+	at testConfig.BaseTest.setUp(BaseTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">PageTests.AddReviewTest#testSubmitReviewForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">PageTests.AllProductAndDetailsTests#testGetAllProductAndDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">PageTests.CartPageTest#testRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">PageTests.ContactUsFormTests#testContactUsForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">PageTests.DownloadInvoiceAfterCheckout#testDownloadInvoiceAfterCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">PageTests.HomePageTest#testNewsLetter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">PageTests.HomePageTest#testWithInvalidEmailValidations</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">PageTests.LoginPageTests#testLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">PageTests.LogoutUserTests#logoutUserTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">PageTests.PlaceOrderTest#placeOrderLoginBeforeCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">PageTests.PlaceOrderTest#placeOrderRegisterBeforeCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">PageTests.PlaceOrderTest#placeOrderRegisterWhileCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">PageTests.ProductQuantityInCartTest#verifyProductQuantityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">PageTests.RegisterPageTests#testAlreadyRegisterUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">PageTests.RegisterPageTests#testRegisterUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">PageTests.ScrollUpAndScrollDownFunctioanlityTest#testScrollUpAndDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">PageTests.ScrollUpAndScrollDownFunctioanlityTest#testScrollUpWithoutArrowBtnAndScrollDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">PageTests.SearchProductTest#testSearchProductAndVerifyCartAfterLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">PageTests.TestCasesPageTests#testTestCasesPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">PageTests.ViewCategoryProductsTest#testViewCategoryProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m25">PageTests.LoginPageTests#testLoginWithInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">PageTests.SearchProductTest#testSearchProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">PageTests.SearchProductTest#testSearchProductAndVerifyCartAfterLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcf66be295899673693e2a2db0bf5910, clickElement {id=f.EF45F3A58C8C055472AA9BCB3D002FCC.d.BF5AC1F6E71E87ECEA51E7ED4C7A2F96.e.3681}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Ramita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50641/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcf66be295899673693e2a2db0bf5910)] -&gt; xpath: //button[contains(@class,&apos;btn btn-success close-modal btn-block&apos;)]]
+Session ID: bcf66be295899673693e2a2db0bf5910
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pages.SearchProductPage.addAllSearchedProductsToCart(SearchProductPage.java:75)
+	at PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin(SearchProductTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">PageTests.AddReviewTest#testSubmitReviewForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">PageTests.AddToCartFromRecommended#testAddToCartFromRecommendedCarousel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">PageTests.AllProductAndDetailsTests#testGetAllProductAndDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">PageTests.CartPageTest#testRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">PageTests.ContactUsFormTests#testContactUsForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">PageTests.DownloadInvoiceAfterCheckout#testDownloadInvoiceAfterCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">PageTests.HomePageTest#testNewsLetter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">PageTests.HomePageTest#testWithInvalidEmailValidations</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">PageTests.LoginPageTests#testLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">PageTests.LogoutUserTests#logoutUserTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">PageTests.PlaceOrderTest#placeOrderLoginBeforeCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">PageTests.PlaceOrderTest#placeOrderRegisterBeforeCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">PageTests.PlaceOrderTest#placeOrderRegisterWhileCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">PageTests.ProductQuantityInCartTest#verifyProductQuantityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">PageTests.RegisterPageTests#testAlreadyRegisterUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">PageTests.RegisterPageTests#testRegisterUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">PageTests.ScrollUpAndScrollDownFunctioanlityTest#testScrollUpAndDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">PageTests.ScrollUpAndScrollDownFunctioanlityTest#testScrollUpWithoutArrowBtnAndScrollDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">PageTests.SearchProductTest#testSearchProductAndVerifyCartAfterLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">PageTests.TestCasesPageTests#testTestCasesPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">PageTests.ViewAndCartBrandProductsTest#testViewAndCartBrandProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">PageTests.ViewCategoryProductsTest#testViewCategoryProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cross_browser_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Cross browser Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cross_browser_Suite" class="navigator-link ">
+                    <span>C:\Users\Ramita\eclipse-workspace\AutomationExerciseProjcet\allSuiteTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cross_browser_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cross_browser_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cross_browser_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cross_browser_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cross_browser_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cross_browser_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods, 4 failed,  2 skipped,  42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="hide-methods failed suite-Cross_browser_Suite"> (hide)</a> <!-- hide-methods failed suite-Cross_browser_Suite -->
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="show-methods failed suite-Cross_browser_Suite"> (show)</a> <!-- show-methods failed suite-Cross_browser_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Cross_browser_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LoginPageTests" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials">testLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LoginPageTests" class="method navigator-link" hash-for-method="testLoginWithInvalidCredentials">testLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProduct">testSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProduct">testSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Cross_browser_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="hide-methods skipped suite-Cross_browser_Suite"> (hide)</a> <!-- hide-methods skipped suite-Cross_browser_Suite -->
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="show-methods skipped suite-Cross_browser_Suite"> (show)</a> <!-- show-methods skipped suite-Cross_browser_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Cross_browser_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AddToCartFromRecommended" class="method navigator-link" hash-for-method="testAddToCartFromRecommendedCarousel">testAddToCartFromRecommendedCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Cross_browser_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="hide-methods skipped suite-Cross_browser_Suite"> (hide)</a> <!-- hide-methods skipped suite-Cross_browser_Suite -->
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="show-methods skipped suite-Cross_browser_Suite"> (show)</a> <!-- show-methods skipped suite-Cross_browser_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Cross_browser_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProductAndVerifyCartAfterLogin">testSearchProductAndVerifyCartAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Cross_browser_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="hide-methods passed suite-Cross_browser_Suite"> (hide)</a> <!-- hide-methods passed suite-Cross_browser_Suite -->
+                      <a href="#" panel-name="suite-Cross_browser_Suite" class="show-methods passed suite-Cross_browser_Suite"> (show)</a> <!-- show-methods passed suite-Cross_browser_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cross_browser_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LogoutUserTests" class="method navigator-link" hash-for-method="logoutUserTest">logoutUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LogoutUserTests" class="method navigator-link" hash-for-method="logoutUserTest">logoutUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderLoginBeforeCheckout">placeOrderLoginBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderLoginBeforeCheckout">placeOrderLoginBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderRegisterBeforeCheckout">placeOrderRegisterBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderRegisterBeforeCheckout">placeOrderRegisterBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderRegisterWhileCheckout">placeOrderRegisterWhileCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.PlaceOrderTest" class="method navigator-link" hash-for-method="placeOrderRegisterWhileCheckout">placeOrderRegisterWhileCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AddToCartFromRecommended" class="method navigator-link" hash-for-method="testAddToCartFromRecommendedCarousel">testAddToCartFromRecommendedCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.RegisterPageTests" class="method navigator-link" hash-for-method="testAlreadyRegisterUser">testAlreadyRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.RegisterPageTests" class="method navigator-link" hash-for-method="testAlreadyRegisterUser">testAlreadyRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ContactUsFormTests" class="method navigator-link" hash-for-method="testContactUsForm">testContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ContactUsFormTests" class="method navigator-link" hash-for-method="testContactUsForm">testContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.DownloadInvoiceAfterCheckout" class="method navigator-link" hash-for-method="testDownloadInvoiceAfterCheckout">testDownloadInvoiceAfterCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.DownloadInvoiceAfterCheckout" class="method navigator-link" hash-for-method="testDownloadInvoiceAfterCheckout">testDownloadInvoiceAfterCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AllProductAndDetailsTests" class="method navigator-link" hash-for-method="testGetAllProductAndDetails">testGetAllProductAndDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AllProductAndDetailsTests" class="method navigator-link" hash-for-method="testGetAllProductAndDetails">testGetAllProductAndDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LoginPageTests" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.LoginPageTests" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.HomePageTest" class="method navigator-link" hash-for-method="testNewsLetter">testNewsLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.HomePageTest" class="method navigator-link" hash-for-method="testNewsLetter">testNewsLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.RegisterPageTests" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.RegisterPageTests" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.CartPageTest" class="method navigator-link" hash-for-method="testRemoveProductFromCart">testRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.CartPageTest" class="method navigator-link" hash-for-method="testRemoveProductFromCart">testRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ScrollUpAndScrollDownFunctioanlityTest" class="method navigator-link" hash-for-method="testScrollUpAndDown">testScrollUpAndDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ScrollUpAndScrollDownFunctioanlityTest" class="method navigator-link" hash-for-method="testScrollUpAndDown">testScrollUpAndDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ScrollUpAndScrollDownFunctioanlityTest" class="method navigator-link" hash-for-method="testScrollUpWithoutArrowBtnAndScrollDown">testScrollUpWithoutArrowBtnAndScrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ScrollUpAndScrollDownFunctioanlityTest" class="method navigator-link" hash-for-method="testScrollUpWithoutArrowBtnAndScrollDown">testScrollUpWithoutArrowBtnAndScrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProductAndVerifyCartAfterLogin">testSearchProductAndVerifyCartAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.SearchProductTest" class="method navigator-link" hash-for-method="testSearchProductAndVerifyCartAfterLogin">testSearchProductAndVerifyCartAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AddReviewTest" class="method navigator-link" hash-for-method="testSubmitReviewForm">testSubmitReviewForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.AddReviewTest" class="method navigator-link" hash-for-method="testSubmitReviewForm">testSubmitReviewForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.TestCasesPageTests" class="method navigator-link" hash-for-method="testTestCasesPage">testTestCasesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.TestCasesPageTests" class="method navigator-link" hash-for-method="testTestCasesPage">testTestCasesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ViewAndCartBrandProductsTest" class="method navigator-link" hash-for-method="testViewAndCartBrandProducts">testViewAndCartBrandProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ViewCategoryProductsTest" class="method navigator-link" hash-for-method="testViewCategoryProducts">testViewCategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ViewCategoryProductsTest" class="method navigator-link" hash-for-method="testViewCategoryProducts">testViewCategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.HomePageTest" class="method navigator-link" hash-for-method="testWithInvalidEmailValidations">testWithInvalidEmailValidations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.HomePageTest" class="method navigator-link" hash-for-method="testWithInvalidEmailValidations">testWithInvalidEmailValidations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ProductQuantityInCartTest" class="method navigator-link" hash-for-method="verifyProductQuantityTest">verifyProductQuantityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cross_browser_Suite" title="PageTests.ProductQuantityInCartTest" class="method navigator-link" hash-for-method="verifyProductQuantityTest">verifyProductQuantityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cross_browser_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cross_browser_Suite" class="panel Cross_browser_Suite">
+          <div class="suite-Cross_browser_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PageTests.LoginPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials">
+                  </a> <!-- testLoginWithInvalidCredentials -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(login with Invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidCredentials">
+                  </a> <!-- testLoginWithInvalidCredentials -->
+                  <span class="method-name">testLoginWithInvalidCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(login with Invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-failed -->
+          <div class="suite-Cross_browser_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PageTests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct">
+                  </a> <!-- testSearchProduct -->
+                  <span class="method-name">testSearchProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct">
+                  </a> <!-- testSearchProduct -->
+                  <span class="method-name">testSearchProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-failed -->
+          <div class="suite-Cross_browser_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">PageTests.AddToCartFromRecommended</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCartFromRecommendedCarousel">
+                  </a> <!-- testAddToCartFromRecommendedCarousel -->
+                  <span class="method-name">testAddToCartFromRecommendedCarousel</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: &apos;TXCHD-LAP-165&apos;, ip: &apos;192.168.1.101&apos;
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at Base.SetupDriver.intializeBrowser(SetupDriver.java:62)
+	at testConfig.BaseTest.setUp(BaseTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify item is added to cart from recommended carousel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-skipped -->
+          <div class="suite-Cross_browser_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">PageTests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProductAndVerifyCartAfterLogin">
+                  </a> <!-- testSearchProductAndVerifyCartAfterLogin -->
+                  <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcf66be295899673693e2a2db0bf5910, clickElement {id=f.EF45F3A58C8C055472AA9BCB3D002FCC.d.BF5AC1F6E71E87ECEA51E7ED4C7A2F96.e.3681}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Ramita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50641/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcf66be295899673693e2a2db0bf5910)] -&gt; xpath: //button[contains(@class,&apos;btn btn-success close-modal btn-block&apos;)]]
+Session ID: bcf66be295899673693e2a2db0bf5910
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pages.SearchProductPage.addAllSearchedProductsToCart(SearchProductPage.java:75)
+	at PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin(SearchProductTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-skipped -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.AddReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitReviewForm">
+                  </a> <!-- testSubmitReviewForm -->
+                  <span class="method-name">testSubmitReviewForm</span>
+                  <em>
+(add review on a product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitReviewForm">
+                  </a> <!-- testSubmitReviewForm -->
+                  <span class="method-name">testSubmitReviewForm</span>
+                  <em>
+(add review on a product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollUpAndDown">
+                  </a> <!-- testScrollUpAndDown -->
+                  <span class="method-name">testScrollUpAndDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollUpAndDown">
+                  </a> <!-- testScrollUpAndDown -->
+                  <span class="method-name">testScrollUpAndDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollUpWithoutArrowBtnAndScrollDown">
+                  </a> <!-- testScrollUpWithoutArrowBtnAndScrollDown -->
+                  <span class="method-name">testScrollUpWithoutArrowBtnAndScrollDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollUpWithoutArrowBtnAndScrollDown">
+                  </a> <!-- testScrollUpWithoutArrowBtnAndScrollDown -->
+                  <span class="method-name">testScrollUpWithoutArrowBtnAndScrollDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.ProductQuantityInCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductQuantityTest">
+                  </a> <!-- verifyProductQuantityTest -->
+                  <span class="method-name">verifyProductQuantityTest</span>
+                  <em>
+(verify product quantity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductQuantityTest">
+                  </a> <!-- verifyProductQuantityTest -->
+                  <span class="method-name">verifyProductQuantityTest</span>
+                  <em>
+(verify product quantity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.AddToCartFromRecommended</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCartFromRecommendedCarousel">
+                  </a> <!-- testAddToCartFromRecommendedCarousel -->
+                  <span class="method-name">testAddToCartFromRecommendedCarousel</span>
+                  <em>
+(verify item is added to cart from recommended carousel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.ViewAndCartBrandProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewAndCartBrandProducts">
+                  </a> <!-- testViewAndCartBrandProducts -->
+                  <span class="method-name">testViewAndCartBrandProducts</span>
+                  <em>
+(verify brand and thier products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewsLetter">
+                  </a> <!-- testNewsLetter -->
+                  <span class="method-name">testNewsLetter</span>
+                  <em>
+(subscribed to news letter with valid cred)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewsLetter">
+                  </a> <!-- testNewsLetter -->
+                  <span class="method-name">testNewsLetter</span>
+                  <em>
+(subscribed to news letter with valid cred)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidEmailValidations">
+                  </a> <!-- testWithInvalidEmailValidations -->
+                  <span class="method-name">testWithInvalidEmailValidations</span>
+                  <em>
+(check subscribe to newletter with invalid email validations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithInvalidEmailValidations">
+                  </a> <!-- testWithInvalidEmailValidations -->
+                  <span class="method-name">testWithInvalidEmailValidations</span>
+                  <em>
+(check subscribe to newletter with invalid email validations)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProductAndVerifyCartAfterLogin">
+                  </a> <!-- testSearchProductAndVerifyCartAfterLogin -->
+                  <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProductAndVerifyCartAfterLogin">
+                  </a> <!-- testSearchProductAndVerifyCartAfterLogin -->
+                  <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart">
+                  </a> <!-- testRemoveProductFromCart -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <em>
+(remove items from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart">
+                  </a> <!-- testRemoveProductFromCart -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <em>
+(remove items from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.TestCasesPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestCasesPage">
+                  </a> <!-- testTestCasesPage -->
+                  <span class="method-name">testTestCasesPage</span>
+                  <em>
+(verify the testcase button is clickable and redirecting to testCases page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestCasesPage">
+                  </a> <!-- testTestCasesPage -->
+                  <span class="method-name">testTestCasesPage</span>
+                  <em>
+(verify the testcase button is clickable and redirecting to testCases page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.AllProductAndDetailsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllProductAndDetails">
+                  </a> <!-- testGetAllProductAndDetails -->
+                  <span class="method-name">testGetAllProductAndDetails</span>
+                  <em>
+(Verify that detail  is visible: product name, category, price, availability, condition, brand)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllProductAndDetails">
+                  </a> <!-- testGetAllProductAndDetails -->
+                  <span class="method-name">testGetAllProductAndDetails</span>
+                  <em>
+(Verify that detail  is visible: product name, category, price, availability, condition, brand)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.LoginPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentials">
+                  </a> <!-- testLoginWithValidCredentials -->
+                  <span class="method-name">testLoginWithValidCredentials</span>
+                  <em>
+(login with Valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentials">
+                  </a> <!-- testLoginWithValidCredentials -->
+                  <span class="method-name">testLoginWithValidCredentials</span>
+                  <em>
+(login with Valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.ViewCategoryProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewCategoryProducts">
+                  </a> <!-- testViewCategoryProducts -->
+                  <span class="method-name">testViewCategoryProducts</span>
+                  <em>
+(verify user is on sub category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewCategoryProducts">
+                  </a> <!-- testViewCategoryProducts -->
+                  <span class="method-name">testViewCategoryProducts</span>
+                  <em>
+(verify user is on sub category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.PlaceOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderLoginBeforeCheckout">
+                  </a> <!-- placeOrderLoginBeforeCheckout -->
+                  <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                  <em>
+(verify order is placed and Login before checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderLoginBeforeCheckout">
+                  </a> <!-- placeOrderLoginBeforeCheckout -->
+                  <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                  <em>
+(verify order is placed and Login before checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterBeforeCheckout">
+                  </a> <!-- placeOrderRegisterBeforeCheckout -->
+                  <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                  <em>
+(verify order is placed and Register before checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterBeforeCheckout">
+                  </a> <!-- placeOrderRegisterBeforeCheckout -->
+                  <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                  <em>
+(verify order is placed and Register before checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterWhileCheckout">
+                  </a> <!-- placeOrderRegisterWhileCheckout -->
+                  <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                  <em>
+(verify order is placed and Register the user while checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterWhileCheckout">
+                  </a> <!-- placeOrderRegisterWhileCheckout -->
+                  <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                  <em>
+(verify order is placed and Register the user while checkout )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.LogoutUserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUserTest">
+                  </a> <!-- logoutUserTest -->
+                  <span class="method-name">logoutUserTest</span>
+                  <em>
+(verify logout button is working and user is redirected to login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUserTest">
+                  </a> <!-- logoutUserTest -->
+                  <span class="method-name">logoutUserTest</span>
+                  <em>
+(verify logout button is working and user is redirected to login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.DownloadInvoiceAfterCheckout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDownloadInvoiceAfterCheckout">
+                  </a> <!-- testDownloadInvoiceAfterCheckout -->
+                  <span class="method-name">testDownloadInvoiceAfterCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDownloadInvoiceAfterCheckout">
+                  </a> <!-- testDownloadInvoiceAfterCheckout -->
+                  <span class="method-name">testDownloadInvoiceAfterCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.RegisterPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAlreadyRegisterUser">
+                  </a> <!-- testAlreadyRegisterUser -->
+                  <span class="method-name">testAlreadyRegisterUser</span>
+                  <em>
+(Register with already existing user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAlreadyRegisterUser">
+                  </a> <!-- testAlreadyRegisterUser -->
+                  <span class="method-name">testAlreadyRegisterUser</span>
+                  <em>
+(Register with already existing user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterUser">
+                  </a> <!-- testRegisterUser -->
+                  <span class="method-name">testRegisterUser</span>
+                  <em>
+(Register a new user and verify the deletion of the account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterUser">
+                  </a> <!-- testRegisterUser -->
+                  <span class="method-name">testRegisterUser</span>
+                  <em>
+(Register a new user and verify the deletion of the account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+          <div class="suite-Cross_browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests.ContactUsFormTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUsForm">
+                  </a> <!-- testContactUsForm -->
+                  <span class="method-name">testContactUsForm</span>
+                  <em>
+(fill the contact us form and verify after form sub user redirects to homepage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUsForm">
+                  </a> <!-- testContactUsForm -->
+                  <span class="method-name">testContactUsForm</span>
+                  <em>
+(fill the contact us form and verify after form sub user redirects to homepage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cross_browser_Suite-class-passed -->
+        </div> <!-- panel Cross_browser_Suite -->
+        <div panel-name="test-xml-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ramita\eclipse-workspace\AutomationExerciseProjcet\allSuiteTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Cross browser Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utils.ListnerHelper&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageTests.RegisterPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.LoginPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.LogoutUserTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.ContactUsFormTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.TestCasesPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.AllProductAndDetailsTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.SearchProductTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.ProductQuantityInCartTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.PlaceOrderTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.ViewCategoryProductsTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.ViewAndCartBrandProductsTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.AddReviewTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.AddToCartFromRecommended&quot;/&gt;
+      &lt;class name=&quot;PageTests.DownloadInvoiceAfterCheckout&quot;/&gt;
+      &lt;class name=&quot;PageTests.ScrollUpAndScrollDownFunctioanlityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageTests.RegisterPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.LoginPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.LogoutUserTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.ContactUsFormTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.TestCasesPageTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.AllProductAndDetailsTests&quot;/&gt;
+      &lt;class name=&quot;PageTests.SearchProductTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.ProductQuantityInCartTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.PlaceOrderTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.ViewCategoryProductsTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.AddReviewTest&quot;/&gt;
+      &lt;class name=&quot;PageTests.AddToCartFromRecommended&quot;/&gt;
+      &lt;class name=&quot;PageTests.DownloadInvoiceAfterCheckout&quot;/&gt;
+      &lt;class name=&quot;PageTests.ScrollUpAndScrollDownFunctioanlityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- Cross browser Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cross browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (17 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FirefoxTest (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cross browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cross browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cross_browser_Suite');
+function tableData_Cross_browser_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'placeOrderRegisterWhileCheckout')
+data.setCell(0, 2, 'PageTests.PlaceOrderTest')
+data.setCell(0, 3, 61663);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDownloadInvoiceAfterCheckout')
+data.setCell(1, 2, 'PageTests.DownloadInvoiceAfterCheckout')
+data.setCell(1, 3, 57369);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDownloadInvoiceAfterCheckout')
+data.setCell(2, 2, 'PageTests.DownloadInvoiceAfterCheckout')
+data.setCell(2, 3, 57182);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'placeOrderRegisterWhileCheckout')
+data.setCell(3, 2, 'PageTests.PlaceOrderTest')
+data.setCell(3, 3, 55460);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'placeOrderRegisterBeforeCheckout')
+data.setCell(4, 2, 'PageTests.PlaceOrderTest')
+data.setCell(4, 3, 49403);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'placeOrderRegisterBeforeCheckout')
+data.setCell(5, 2, 'PageTests.PlaceOrderTest')
+data.setCell(5, 3, 47788);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'placeOrderLoginBeforeCheckout')
+data.setCell(6, 2, 'PageTests.PlaceOrderTest')
+data.setCell(6, 3, 41595);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'placeOrderLoginBeforeCheckout')
+data.setCell(7, 2, 'PageTests.PlaceOrderTest')
+data.setCell(7, 3, 38732);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRegisterUser')
+data.setCell(8, 2, 'PageTests.RegisterPageTests')
+data.setCell(8, 3, 36555);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRegisterUser')
+data.setCell(9, 2, 'PageTests.RegisterPageTests')
+data.setCell(9, 3, 36061);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchProductAndVerifyCartAfterLogin')
+data.setCell(10, 2, 'PageTests.SearchProductTest')
+data.setCell(10, 3, 34921);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRemoveProductFromCart')
+data.setCell(11, 2, 'PageTests.CartPageTest')
+data.setCell(11, 3, 29103);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logoutUserTest')
+data.setCell(12, 2, 'PageTests.LogoutUserTests')
+data.setCell(12, 3, 28393);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRemoveProductFromCart')
+data.setCell(13, 2, 'PageTests.CartPageTest')
+data.setCell(13, 3, 28008);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testViewAndCartBrandProducts')
+data.setCell(14, 2, 'PageTests.ViewAndCartBrandProductsTest')
+data.setCell(14, 3, 27928);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSearchProductAndVerifyCartAfterLogin')
+data.setCell(15, 2, 'PageTests.SearchProductTest')
+data.setCell(15, 3, 26588);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testViewCategoryProducts')
+data.setCell(16, 2, 'PageTests.ViewCategoryProductsTest')
+data.setCell(16, 3, 20667);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAddToCartFromRecommendedCarousel')
+data.setCell(17, 2, 'PageTests.AddToCartFromRecommended')
+data.setCell(17, 3, 20362);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'logoutUserTest')
+data.setCell(18, 2, 'PageTests.LogoutUserTests')
+data.setCell(18, 3, 17840);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSubmitReviewForm')
+data.setCell(19, 2, 'PageTests.AddReviewTest')
+data.setCell(19, 3, 17729);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductQuantityTest')
+data.setCell(20, 2, 'PageTests.ProductQuantityInCartTest')
+data.setCell(20, 3, 17138);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testAlreadyRegisterUser')
+data.setCell(21, 2, 'PageTests.RegisterPageTests')
+data.setCell(21, 3, 16416);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testLoginWithInvalidCredentials')
+data.setCell(22, 2, 'PageTests.LoginPageTests')
+data.setCell(22, 3, 15418);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testContactUsForm')
+data.setCell(23, 2, 'PageTests.ContactUsFormTests')
+data.setCell(23, 3, 15299);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testViewCategoryProducts')
+data.setCell(24, 2, 'PageTests.ViewCategoryProductsTest')
+data.setCell(24, 3, 14843);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testScrollUpAndDown')
+data.setCell(25, 2, 'PageTests.ScrollUpAndScrollDownFunctioanlityTest')
+data.setCell(25, 3, 14642);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testGetAllProductAndDetails')
+data.setCell(26, 2, 'PageTests.AllProductAndDetailsTests')
+data.setCell(26, 3, 14311);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLoginWithValidCredentials')
+data.setCell(27, 2, 'PageTests.LoginPageTests')
+data.setCell(27, 3, 14081);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyProductQuantityTest')
+data.setCell(28, 2, 'PageTests.ProductQuantityInCartTest')
+data.setCell(28, 3, 14081);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSubmitReviewForm')
+data.setCell(29, 2, 'PageTests.AddReviewTest')
+data.setCell(29, 3, 12850);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testContactUsForm')
+data.setCell(30, 2, 'PageTests.ContactUsFormTests')
+data.setCell(30, 3, 12699);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSearchProduct')
+data.setCell(31, 2, 'PageTests.SearchProductTest')
+data.setCell(31, 3, 12651);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testAlreadyRegisterUser')
+data.setCell(32, 2, 'PageTests.RegisterPageTests')
+data.setCell(32, 3, 12649);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testLoginWithValidCredentials')
+data.setCell(33, 2, 'PageTests.LoginPageTests')
+data.setCell(33, 3, 12335);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSearchProductAndVerifyCartAfterLogin')
+data.setCell(34, 2, 'PageTests.SearchProductTest')
+data.setCell(34, 3, 11815);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSearchProduct')
+data.setCell(35, 2, 'PageTests.SearchProductTest')
+data.setCell(35, 3, 10932);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testGetAllProductAndDetails')
+data.setCell(36, 2, 'PageTests.AllProductAndDetailsTests')
+data.setCell(36, 3, 10674);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testLoginWithInvalidCredentials')
+data.setCell(37, 2, 'PageTests.LoginPageTests')
+data.setCell(37, 3, 10585);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testWithInvalidEmailValidations')
+data.setCell(38, 2, 'PageTests.HomePageTest')
+data.setCell(38, 3, 9229);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testTestCasesPage')
+data.setCell(39, 2, 'PageTests.TestCasesPageTests')
+data.setCell(39, 3, 8523);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testTestCasesPage')
+data.setCell(40, 2, 'PageTests.TestCasesPageTests')
+data.setCell(40, 3, 8336);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testScrollUpAndDown')
+data.setCell(41, 2, 'PageTests.ScrollUpAndScrollDownFunctioanlityTest')
+data.setCell(41, 3, 7866);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testNewsLetter')
+data.setCell(42, 2, 'PageTests.HomePageTest')
+data.setCell(42, 3, 7409);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testWithInvalidEmailValidations')
+data.setCell(43, 2, 'PageTests.HomePageTest')
+data.setCell(43, 3, 6917);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testScrollUpWithoutArrowBtnAndScrollDown')
+data.setCell(44, 2, 'PageTests.ScrollUpAndScrollDownFunctioanlityTest')
+data.setCell(44, 3, 5950);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testNewsLetter')
+data.setCell(45, 2, 'PageTests.HomePageTest')
+data.setCell(45, 3, 5906);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testScrollUpWithoutArrowBtnAndScrollDown')
+data.setCell(46, 2, 'PageTests.ScrollUpAndScrollDownFunctioanlityTest')
+data.setCell(46, 3, 4960);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testAddToCartFromRecommendedCarousel')
+data.setCell(47, 2, 'PageTests.AddToCartFromRecommended')
+data.setCell(47, 3, 0);
+window.suiteTableData['Cross_browser_Suite']= { tableData: data, tableDiv: 'times-div-Cross_browser_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Cross_browser_Suite">
+              </div> <!-- times-div-Cross_browser_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cross browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">PageTests.CartPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testNewsLetter</span>
+                <br/>
+                <span class="ignored-method-name">testNewsLetter</span>
+                <br/>
+                <span class="ignored-method-name">testAddProductsToCart</span>
+                <br/>
+                <span class="ignored-method-name">testAddProductsToCart</span>
+                <br/>
+                <span class="ignored-method-name">testWithInvalidEmailValidations</span>
+                <br/>
+                <span class="ignored-method-name">testWithInvalidEmailValidations</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cross_browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LogoutUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutUserTest</span>
+                <span class="method-start">5458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutUserTest</span>
+                <span class="method-start">8146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">26004 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddToCartFromRecommended</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">28858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCartFromRecommendedCarousel</span>
+                <span class="method-start">30190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">30195 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AllProductAndDetailsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">30197 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LogoutUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">33853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddToCartFromRecommended</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">35207 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AllProductAndDetailsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetAllProductAndDetails</span>
+                <span class="method-start">37855 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddToCartFromRecommended</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddToCartFromRecommendedCarousel</span>
+                <span class="method-start">38597 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AllProductAndDetailsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">52167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">54883 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddToCartFromRecommended</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">58960 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSubmitReviewForm</span>
+                <span class="method-start">60284 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AllProductAndDetailsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">60523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllProductAndDetails</span>
+                <span class="method-start">63397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">74071 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">75132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">78016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSubmitReviewForm</span>
+                <span class="method-start">78119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.TestCasesPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">80911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTestCasesPage</span>
+                <span class="method-start">85926 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">90972 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.TestCasesPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">91984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">94263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testTestCasesPage</span>
+                <span class="method-start">94575 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ProductQuantityInCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">97315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductQuantityTest</span>
+                <span class="method-start">102313 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.TestCasesPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">103098 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ProductQuantityInCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">103987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductQuantityTest</span>
+                <span class="method-start">107724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">119452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">121806 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">122934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">122968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                <span class="method-start">125514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                <span class="method-start">128349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">183810 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ContactUsFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">186778 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">187178 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ContactUsFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">189159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContactUsForm</span>
+                <span class="method-start">191898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testContactUsForm</span>
+                <span class="method-start">193154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">205854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">207198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.DownloadInvoiceAfterCheckout</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">208324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">208656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDownloadInvoiceAfterCheckout</span>
+                <span class="method-start">210870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDownloadInvoiceAfterCheckout</span>
+                <span class="method-start">214026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">268240 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">270021 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.DownloadInvoiceAfterCheckout</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">271208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCredentials</span>
+                <span class="method-start">272852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">274956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCredentials</span>
+                <span class="method-start">280079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">285188 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">286330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNewsLetter</span>
+                <span class="method-start">289040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">294161 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">294947 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">295966 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">296939 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegisterUser</span>
+                <span class="method-start">298426 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNewsLetter</span>
+                <span class="method-start">302347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">309757 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">312911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterUser</span>
+                <span class="method-start">318725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">334487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">336127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollUpAndDown</span>
+                <span class="method-start">338574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">353217 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">354248 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">355281 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct</span>
+                <span class="method-start">356927 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">358931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollUpAndDown</span>
+                <span class="method-start">363814 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">367989 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ViewAndCartBrandProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">369023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewAndCartBrandProducts</span>
+                <span class="method-start">371678 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">371681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">374563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct</span>
+                <span class="method-start">379272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">392058 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ViewCategoryProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">394731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewCategoryProducts</span>
+                <span class="method-start">399560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ViewAndCartBrandProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">399606 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ViewCategoryProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">401171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewCategoryProducts</span>
+                <span class="method-start">404037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">414403 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">417221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                <span class="method-start">422392 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ViewCategoryProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">424705 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">425993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                <span class="method-start">428904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">470181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">473079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAlreadyRegisterUser</span>
+                <span class="method-start">478016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">478308 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">480128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAlreadyRegisterUser</span>
+                <span class="method-start">482835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">490667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">493275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithInvalidCredentials</span>
+                <span class="method-start">498392 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">499253 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">501981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithInvalidCredentials</span>
+                <span class="method-start">504874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">509037 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">511719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollUpWithoutArrowBtnAndScrollDown</span>
+                <span class="method-start">516560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">520403 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">521682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">522511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testScrollUpWithoutArrowBtnAndScrollDown</span>
+                <span class="method-start">524433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">525782 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.ScrollUpAndScrollDownFunctioanlityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">529394 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">530340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                <span class="method-start">530892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                <span class="method-start">533119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">544936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">546126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProductAndVerifyCartAfterLogin</span>
+                <span class="method-start">548927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">557481 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">560574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidEmailValidations</span>
+                <span class="method-start">565609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">574838 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">577611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                <span class="method-start">582594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">583848 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">585456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWithInvalidEmailValidations</span>
+                <span class="method-start">587995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">594913 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">595843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                <span class="method-start">598480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">621327 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">624588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveProductFromCart</span>
+                <span class="method-start">629456 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">640075 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">641659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveProductFromCart</span>
+                <span class="method-start">644306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">657464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">673411 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

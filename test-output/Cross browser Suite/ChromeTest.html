@@ -1,0 +1,377 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/2/1</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 02 15:07:22 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>675 seconds (675100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PageTests.SearchProductTest.testSearchProduct()'><b>testSearchProduct</b><br>Test class: PageTests.SearchProductTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948246832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948246832'><pre>java.lang.AssertionError: The following asserts failed:
+	list does not contain the searched product expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at PageTests.SearchProductTest.testSearchProduct(SearchProductTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</pre></div></td>
+<td>10</td>
+<td>PageTests.SearchProductTest@2b76ff4e</td></tr>
+<tr>
+<td title='PageTests.LoginPageTests.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: PageTests.LoginPageTests<br>Test method: login with Invalid credentials</td>
+<td><div><pre>java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1558008216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558008216'><pre>java.lang.AssertionError: expected [Login to your account] but found [Your email or password is incorrect!]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at PageTests.LoginPageTests.testLoginWithInvalidCredentials(LoginPageTests.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</pre></div></td>
+<td>15</td>
+<td>PageTests.LoginPageTests@3f9342d4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PageTests.AllProductAndDetailsTests.testGetAllProductAndDetails()'><b>testGetAllProductAndDetails</b><br>Test class: PageTests.AllProductAndDetailsTests<br>Test method: Verify that detail  is visible: product name, category, price, availability, condition, brand</td>
+<td></td>
+<td>10</td>
+<td>PageTests.AllProductAndDetailsTests@64a40280</td></tr>
+<tr>
+<td title='PageTests.ScrollUpAndScrollDownFunctioanlityTest.testScrollUpWithoutArrowBtnAndScrollDown()'><b>testScrollUpWithoutArrowBtnAndScrollDown</b><br>Test class: PageTests.ScrollUpAndScrollDownFunctioanlityTest</td>
+<td></td>
+<td>4</td>
+<td>PageTests.ScrollUpAndScrollDownFunctioanlityTest@539d019</td></tr>
+<tr>
+<td title='PageTests.LoginPageTests.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: PageTests.LoginPageTests<br>Test method: login with Valid credentials</td>
+<td></td>
+<td>12</td>
+<td>PageTests.LoginPageTests@3f9342d4</td></tr>
+<tr>
+<td title='PageTests.AddToCartFromRecommended.testAddToCartFromRecommendedCarousel()'><b>testAddToCartFromRecommendedCarousel</b><br>Test class: PageTests.AddToCartFromRecommended<br>Test method: verify item is added to cart from recommended carousel</td>
+<td></td>
+<td>20</td>
+<td>PageTests.AddToCartFromRecommended@7749bf93</td></tr>
+<tr>
+<td title='PageTests.ViewCategoryProductsTest.testViewCategoryProducts()'><b>testViewCategoryProducts</b><br>Test class: PageTests.ViewCategoryProductsTest<br>Test method: verify user is on sub category page</td>
+<td></td>
+<td>20</td>
+<td>PageTests.ViewCategoryProductsTest@53f6fd09</td></tr>
+<tr>
+<td title='PageTests.ScrollUpAndScrollDownFunctioanlityTest.testScrollUpAndDown()'><b>testScrollUpAndDown</b><br>Test class: PageTests.ScrollUpAndScrollDownFunctioanlityTest</td>
+<td></td>
+<td>14</td>
+<td>PageTests.ScrollUpAndScrollDownFunctioanlityTest@539d019</td></tr>
+<tr>
+<td title='PageTests.ProductQuantityInCartTest.verifyProductQuantityTest()'><b>verifyProductQuantityTest</b><br>Test class: PageTests.ProductQuantityInCartTest<br>Test method: verify product quantity</td>
+<td></td>
+<td>14</td>
+<td>PageTests.ProductQuantityInCartTest@24ba9639</td></tr>
+<tr>
+<td title='PageTests.PlaceOrderTest.placeOrderRegisterWhileCheckout()'><b>placeOrderRegisterWhileCheckout</b><br>Test class: PageTests.PlaceOrderTest<br>Test method: verify order is placed and Register the user while checkout </td>
+<td></td>
+<td>61</td>
+<td>PageTests.PlaceOrderTest@38aa816f</td></tr>
+<tr>
+<td title='PageTests.AddReviewTest.testSubmitReviewForm()'><b>testSubmitReviewForm</b><br>Test class: PageTests.AddReviewTest<br>Test method: add review on a product</td>
+<td></td>
+<td>12</td>
+<td>PageTests.AddReviewTest@1b84f475</td></tr>
+<tr>
+<td title='PageTests.DownloadInvoiceAfterCheckout.testDownloadInvoiceAfterCheckout()'><b>testDownloadInvoiceAfterCheckout</b><br>Test class: PageTests.DownloadInvoiceAfterCheckout</td>
+<td></td>
+<td>57</td>
+<td>PageTests.DownloadInvoiceAfterCheckout@13330ac6</td></tr>
+<tr>
+<td title='PageTests.LogoutUserTests.logoutUserTest()'><b>logoutUserTest</b><br>Test class: PageTests.LogoutUserTests<br>Test method: verify logout button is working and user is redirected to login page</td>
+<td></td>
+<td>28</td>
+<td>PageTests.LogoutUserTests@ab7395e</td></tr>
+<tr>
+<td title='PageTests.RegisterPageTests.testAlreadyRegisterUser()'><b>testAlreadyRegisterUser</b><br>Test class: PageTests.RegisterPageTests<br>Test method: Register with already existing user</td>
+<td></td>
+<td>16</td>
+<td>PageTests.RegisterPageTests@e383572</td></tr>
+<tr>
+<td title='PageTests.CartPageTest.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: PageTests.CartPageTest<br>Test method: remove items from cart</td>
+<td></td>
+<td>29</td>
+<td>PageTests.CartPageTest@2f62ea70</td></tr>
+<tr>
+<td title='PageTests.RegisterPageTests.testRegisterUser()'><b>testRegisterUser</b><br>Test class: PageTests.RegisterPageTests<br>Test method: Register a new user and verify the deletion of the account</td>
+<td></td>
+<td>36</td>
+<td>PageTests.RegisterPageTests@e383572</td></tr>
+<tr>
+<td title='PageTests.PlaceOrderTest.placeOrderLoginBeforeCheckout()'><b>placeOrderLoginBeforeCheckout</b><br>Test class: PageTests.PlaceOrderTest<br>Test method: verify order is placed and Login before checkout </td>
+<td></td>
+<td>41</td>
+<td>PageTests.PlaceOrderTest@38aa816f</td></tr>
+<tr>
+<td title='PageTests.HomePageTest.testNewsLetter()'><b>testNewsLetter</b><br>Test class: PageTests.HomePageTest<br>Test method: subscribed to news letter with valid cred</td>
+<td></td>
+<td>5</td>
+<td>PageTests.HomePageTest@7a1234bf</td></tr>
+<tr>
+<td title='PageTests.TestCasesPageTests.testTestCasesPage()'><b>testTestCasesPage</b><br>Test class: PageTests.TestCasesPageTests<br>Test method: verify the testcase button is clickable and redirecting to testCases page</td>
+<td></td>
+<td>8</td>
+<td>PageTests.TestCasesPageTests@2bd08376</td></tr>
+<tr>
+<td title='PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin()'><b>testSearchProductAndVerifyCartAfterLogin</b><br>Test class: PageTests.SearchProductTest</td>
+<td></td>
+<td>34</td>
+<td>PageTests.SearchProductTest@2b76ff4e</td></tr>
+<tr>
+<td title='PageTests.HomePageTest.testWithInvalidEmailValidations()'><b>testWithInvalidEmailValidations</b><br>Test class: PageTests.HomePageTest<br>Test method: check subscribe to newletter with invalid email validations</td>
+<td></td>
+<td>6</td>
+<td>PageTests.HomePageTest@7a1234bf</td></tr>
+<tr>
+<td title='PageTests.ViewAndCartBrandProductsTest.testViewAndCartBrandProducts()'><b>testViewAndCartBrandProducts</b><br>Test class: PageTests.ViewAndCartBrandProductsTest<br>Test method: verify brand and thier products</td>
+<td></td>
+<td>27</td>
+<td>PageTests.ViewAndCartBrandProductsTest@6bffbc6d</td></tr>
+<tr>
+<td title='PageTests.PlaceOrderTest.placeOrderRegisterBeforeCheckout()'><b>placeOrderRegisterBeforeCheckout</b><br>Test class: PageTests.PlaceOrderTest<br>Test method: verify order is placed and Register before checkout </td>
+<td></td>
+<td>49</td>
+<td>PageTests.PlaceOrderTest@38aa816f</td></tr>
+<tr>
+<td title='PageTests.ContactUsFormTests.testContactUsForm()'><b>testContactUsForm</b><br>Test class: PageTests.ContactUsFormTests<br>Test method: fill the contact us form and verify after form sub user redirects to homepage</td>
+<td></td>
+<td>15</td>
+<td>PageTests.ContactUsFormTests@50d13246</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin()'><b>testSearchProductAndVerifyCartAfterLogin</b><br>Test class: PageTests.SearchProductTest</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcf66be295899673693e2a2db0bf5910, clickElement {id=f.EF45F3A58C8C055472AA9BCB3D002FCC.d.BF5AC1F6E71E87ECEA51E7ED4C7A2F96.e.3681}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Ramita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50641/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcf66be295899673693e2a2db0bf5910)] -&gt; xpath: //button[contains(@class,&apos;btn btn-success close-modal btn-block&apos;)]]
+Session ID: bcf66be295899673693e2a2db0bf5910
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pages.SearchProductPage.addAllSearchedProductsToCart(SearchProductPage.java:75)
+	at PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin(SearchProductTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace242193198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace242193198'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcf66be295899673693e2a2db0bf5910, clickElement {id=f.EF45F3A58C8C055472AA9BCB3D002FCC.d.BF5AC1F6E71E87ECEA51E7ED4C7A2F96.e.3681}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Ramita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50641/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcf66be295899673693e2a2db0bf5910)] -&gt; xpath: //button[contains(@class,&apos;btn btn-success close-modal btn-block&apos;)]]
+Session ID: bcf66be295899673693e2a2db0bf5910
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pages.SearchProductPage.addAllSearchedProductsToCart(SearchProductPage.java:75)
+	at PageTests.SearchProductTest.testSearchProductAndVerifyCartAfterLogin(SearchProductTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</pre></div></td>
+<td>11</td>
+<td>PageTests.SearchProductTest@2b76ff4e</td></tr>
+</table><p>
+</body>
+</html>
